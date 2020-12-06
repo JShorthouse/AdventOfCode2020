@@ -23,8 +23,6 @@ func CountTrees(lines []string, right int, down int) int {
 		x_pos = (x_pos + right) % len(line)
 	}
 
-	fmt.Println("")
-
 	return trees;
 }
 
